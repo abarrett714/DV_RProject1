@@ -1,0 +1,40 @@
+---
+title: "Titanic Project"
+author: "apb766, mew2795, jdg3666"
+date: "September 13, 2015"
+output: html_document
+---
+
+1) This program uses SQL to assign all of the Titanic data to a dataframe and then prints out a subset and summary of the data.
+```{r}
+source("../01 Data/Database.R", echo = TRUE)
+```
+
+***
+
+2) These sections of code run ggplot() programs which produce each of the required plots of Titanic Data.
+```{r eval = TRUE}
+source("../02 Visualizations/TitanicPlot01.R", echo = TRUE)
+```
+
+```{r}
+source("../02 Visualizations/TitanicPlot02.R", echo = TRUE)
+```
+
+```{r}
+source("../02 Visualizations/TitanicPlot03.R", echo = TRUE)
+```
+
+```{r}
+source("../02 Visualizations/TitanicPlot04.R", echo = TRUE)
+```
+
+```{r}
+source("../02 Visualizations/TitanicPlot05.R", echo = TRUE)
+```
+
+
+3) We designed the last plot ourselves and it shows the survival rates of people over the age of 50, compared to which class they were in.
+```{r}
+source("../02 Visualizations/TitanicPlot06.R", echo = TRUE)
+```
